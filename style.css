@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    font-family: 'Plus Jakarta Sans';
+    padding: 5px;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+}
+
+.logot {
+    margin: 1rem;
+
+}
+
+.skilled {
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+}
+
+article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    margin-top: 5rem;
+    width: 80%;
+}
+
+.menu button {
+    margin: 2rem;
+    width: 12rem;
+    height: 4vh;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #13183F;
+    cursor: pointer;
+    border: none;
+}
+
+.menu button:hover {
+    background-color: #666CA3;
+
+}
+
+.content {
+    margin: 12px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.content p {
+    color: #83869A;
+    font-size: 18px;
+
+}
+
+.content button {
+    width: 12rem;
+    height: 4vh;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(#F02AA6, #FF6F48);
+    cursor: pointer;
+    border: none;
+}
+
+.content button:hover {
+    background-image: linear-gradient(#FFA7C3, #F74780);
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bcimg {
+
+    background-image: url(./assets/image-hero-desktop@2x.png);
+    height: 100vh;
+    width: 40vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin-right: -15rem;
+    margin-top: -14rem;
+
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.allCard {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1px;
+}
+
+
+.eachCard {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 20vh;
+    width: 15%;
+    padding: 5rem;
+    border-radius: 20px;
+    border: none;
+    margin: 1rem;
+
+
+}
+
+.Checkcard {
+    background-color: #F74780;
+    height: 20vh;
+    width: 15%;
+    padding: 5rem;
+    border: none;
+    border-radius: 20px;
+    margin: 1rem;
+}
+
+.Checkcard h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.eachCard h4 {
+    line-height: 2rem;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+
+
+}
+
+.eachCard p {
+    color: #83869A;
+}
+
+.eachCard button {
+    border-radius: 25px;
+    color: #F74780;
+    background-color: aliceblue;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.eachCard button:hover {
+    color: #FFA7C3;
+}
+
+.icon {
+    margin-bottom: 2rem;
+    position: relative;
+
+}
+
+.icon img {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    margin-top: -7rem;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    background-color: #13183F;
+
+}
+
+.foot {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn button {
+    /* margin: 15px; */
+    width: 12rem;
+    height: 4vh;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(#4851FF, #F02AA6);
+    cursor: pointer;
+    border: none;
+}
+
+.btn button:hover {
+    background-image: linear-gradient(#FFA7C3, #a2a5d7);
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logot {
+        margin: 1rem;
+        padding-right: 3%;
+
+
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        margin-top: 1.5px;
+    }
+
+    .menu button {
+        margin: 1.5rem;
+        width: 7rem;
+        height: 5vh;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.1;
+        font-weight: bold;
+    }
+
+    .content h1 {
+
+        margin: 2px;
+
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .content button {
+        width: 7rem;
+        height: 5vh;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+
+    .bcimg {
+        background-image: url(./assets/image-hero-mobile.png);
+        background-size: contain;
+        width: 100%;
+        height: 50vh;
+
+        z-index: 0;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        margin-bottom: 55rem;
+    }
+
+    .allCard {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .icon {
+        position: relative;
+
+    }
+
+    .icon img {
+        width: 56px;
+        height: 56px;
+        position: absolute;
+        margin-top: -6.5rem;
+    }
+
+    .Checkcard h1 {
+        font-weight: bolder;
+        font-size: 20px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Checkcard {
+        height: 10vh;
+        width: 30%;
+    }
+
+
+    .eachCard {
+        background-color: aliceblue;
+        height: 10vh;
+        width: 40%;
+        padding: 5rem;
+        border-radius: 20px;
+        border: none;
+    }
+
+
+    .eachCard h4 {
+        line-height: 1rem;
+        font-size: larger;
+        font-weight: bold;
+        position: relative;
+        top: -50px;
+
+    }
+
+    .eachCard p {
+        color: #83869A;
+        font-size: 13px;
+        line-height: 100%;
+        position: relative;
+        top: -50px;
+    }
+
+    .eachCard button {
+        padding: 1%;
+        border-radius: 25px;
+        color: #F74780;
+        background-color: aliceblue;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        top: -50px;
+    }
+
+    .btn button {
+        width: 7rem;
+        height: 5vh;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+
+
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    body {
+
+        padding: 5px;
+        overflow-x: hidden;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .logot {
+        margin: 1rem;
+
+
+    }
+
+    .skilled {
+        margin-top: 0.5rem;
+        margin-right: 3rem;
+    }
+
+    .main {
+        margin-top: 5rem;
+    }
+
+    .menu button {
+        margin: 2rem;
+        width: 10rem;
+        height: 5vh;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        background-color: #13183F;
+        cursor: pointer;
+        border: none;
+    }
+
+    .menu button:hover {
+        background-color: #666CA3;
+
+    }
+
+    .content {
+        margin: 12px;
+        line-height: 1.5;
+    }
+
+    h1 {
+        font-weight: bold;
+        font-size: 3rem;
+    }
+
+    .content p {
+        color: #83869A;
+        font-size: 18px;
+
+    }
+
+    .content button {
+        width: 10rem;
+        height: 5vh;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        background-image: linear-gradient(#F02AA6, #FF6F48);
+        cursor: pointer;
+        border: none;
+    }
+
+    .content button:hover {
+        background-image: linear-gradient(#FFA7C3, #F74780);
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .bcimg {
+        background-image: url(./assets/image-hero-tablet@2x.png);
+        height: 50vh;
+        width: 60vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 1;
+        margin-right: -12rem;
+        margin-top: -10rem;
+
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+
+    }
+
+
+    .allCard {
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 1px;
+    }
+
+
+    .eachCard {
+        background-color: aliceblue;
+        height: 25vh;
+        width: 30%;
+        padding: 3rem;
+        border-radius: 20px;
+        border: none;
+        margin: 1rem;
+    }
+
+    .Checkcard {
+        background-color: #F74780;
+        height: 25vh;
+        width: 30%;
+        padding: 3rem;
+        border: none;
+        border-radius: 20px;
+        margin: 1rem;
+    }
+
+    .Checkcard h1 {
+        font-weight: bolder;
+        font-size: 25px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .eachCard h4 {
+        line-height: 2rem;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .eachCard p {
+        color: #83869A;
+        font-size: 18px;
+    }
+
+    .eachCard button {
+        padding: 1.1rem 2rem;
+        border-radius: 25px;
+        color: #F74780;
+        background-color: aliceblue;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        left: -2rem;
+    }
+
+    .eachCard button:hover {
+        color: #FFA7C3;
+    }
+
+    .icon {
+        margin-bottom: 2rem;
+        position: relative;
+
+    }
+
+    .icon img {
+        width: 56px;
+        height: 56px;
+        position: absolute;
+        margin-top: -4rem;
+    }
+
+    .btn button {
+        margin: 15px;
+        width: 10rem;
+        height: 5vh;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        background-image: linear-gradient(#4851FF, #F02AA6);
+        cursor: pointer;
+        border: none;
+    }
+
+    .btn button:hover {
+        background-image: linear-gradient(#FFA7C3, #a2a5d7);
+    }
+}
