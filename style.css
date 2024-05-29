@@ -505,7 +505,7 @@ footer {
         background-repeat: no-repeat;
         z-index: 1;
         margin-right: -12rem;
-        margin-top: -10rem;
+        margin-top: -5rem;
 
     }
 
@@ -529,7 +529,7 @@ footer {
 
     .eachCard {
         background-color: aliceblue;
-        height: 25vh;
+        height: 35vh;
         width: 30%;
         padding: 3rem;
         border-radius: 20px;
@@ -539,7 +539,7 @@ footer {
 
     .Checkcard {
         background-color: #F74780;
-        height: 25vh;
+        height: 35vh;
         width: 30%;
         padding: 3rem;
         border: none;
